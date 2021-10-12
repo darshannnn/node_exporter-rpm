@@ -7,7 +7,7 @@ Summary:	Prometheus exporter for machine metrics, written in Go with pluggable m
 Group:		System Environment/Daemons
 License:	See the LICENSE file at github.
 URL:		https://github.com/prometheus/node_exporter
-Source0:        https://github.com/prometheus/node_exporter/releases/download/%{version}/node_exporter-%{version}.linux-amd64.tar.gz
+Source0:        https://github.com/prometheus/node_exporter/releases/download/v%{version}/node_exporter-%{version}.linux-amd64.tar.gz
 BuildRoot:	%{_tmppath}/%{name}-%{version}-root
 Requires(pre):  /usr/sbin/useradd systemd
 AutoReqProv:	No
